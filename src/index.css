@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fbfbfb;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+.todoListInput {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.btnAdd {
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  padding: 6px 10px;
+  margin: 8px 10px;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  background: #007bff;
+}
+.textInput {
+  display: inline-block;
+  flex-grow: 1;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  padding: 6px 10px;
+  outline: none;
+  font-size: 16px;
+  resize: none;
+}
+.todoLists {
+  width: 100%;
+}
+.todoListContent {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px;
+  margin-bottom: 10px;
+  background: #f4f4f4;
+  border-radius: 4px;
+}
+.todoListContent [type="checkbox"] {
+  margin-left: 5px;
+  font-size: 16px;
+}
+.editable {
+  display: inline-block;
+  padding: 8px;
+  width: 250px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+.editable:hover {
+  background: rgba(179, 215, 255, 0.52);
+}
+.finished {
+  text-decoration: line-through;
+}
+.delete {
+  display: inline-block;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  padding: 6px 10px;
+  margin: 8px 10px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  background: #007bff;
+}
